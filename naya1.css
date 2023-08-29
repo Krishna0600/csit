@@ -1,0 +1,57 @@
+*{
+  background-color: aqua;
+  font-family: sans-serif;
+}
+
+
+form{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  border: solid;
+  border-radius: 10px 10px 10px 10px;
+  margin: 30px 0px 20px 0px;
+  padding: 15px 10px 30px 10px;
+}
+
+input[type=submit]{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+input[type = reset]{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+input[type = text]{
+  background-color: rgb(205, 195, 50);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+input[type = email]{
+  background-color: rgb(88, 4, 4);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+}
+
+input[type = radio]{
+  background-color: coral;
+  color: white;
+  font-weight: bold;
+  padding: 30px;
+  border: none;
+}
